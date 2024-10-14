@@ -1,0 +1,60 @@
+/* Reset  */
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+img {
+    width:100%;
+}
+
+/* Layout */
+/* Common */
+/* Typography */
+* {
+    font-family: Montserrat, 'Helvetica Neue', sans-serif
+}
+
+/* Header */
+.header {
+    height:60px;
+    line-height:60px;
+    text-align:center;
+    font-family:'Nerko One', cursive;
+    color:#ff9614;
+    font-size:2.6em;
+    text-shadow: 2px 2px 4px rgba(168, 164, 159);
+    /* debug */
+    /* background-color: lightcoral; */
+}
+
+/* Title */
+
+/* Hero */
+
+/* Socials */
+
+/* Advertisement */
+
+/* Content */
+
+
+
+/* Responsive */
+
+/* Tablet */
+@media screen and (min-width:768px) {
+    .header {
+        display:flex;
+        padding-left:20px;
+        /* debug */
+        /* background-color: blue; */
+    }
+}
+
+/* Desktop */
+@media screen and (min-width:992px) {
+
+}
+
