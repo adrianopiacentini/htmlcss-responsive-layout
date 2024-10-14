@@ -160,9 +160,36 @@ iframe {
 /* Advertisement */
 .section.adv {
     display: none;
+    margin-bottom: 20px;
 }
 
 /* Content */
+.section.content {
+    padding-bottom: 35px;
+}
+
+.content h2 {
+    font-weight: normal;
+    font-size: 1.7rem
+}
+
+.content hr {
+    color: #ff9614;
+    margin: 15px 0;
+    width: 80px;
+}
+
+.content img {
+    width: 60%;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.3);
+}
+
+.content p {
+    line-height: 2;
+}
+
 
 /* Footer */
 
@@ -201,6 +228,12 @@ iframe {
     .section.adv {
         display: block;
     }
+
+    .content img {
+        float: left;
+        margin: 20px 10px 0px 0;
+        width: 40%;
+    }
 }
 
 /* Desktop */
@@ -225,5 +258,11 @@ iframe {
 
     .section.adv {
         display: block;
+    }
+
+    .content img {
+        float: left;
+        margin: 20px 10px 0px 0;
+        width: 30%;
     }
 }
