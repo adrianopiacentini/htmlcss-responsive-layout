@@ -31,6 +31,26 @@ ul {
     /* height:200px; */
 }
 
+#facebook {
+    color: #1a77f3;
+}
+
+#twitter {
+    color: #009eff;
+}
+
+#instagram {
+    color: #e26996;
+}
+
+#pinterest {
+    color: #e62222;
+}
+
+#youtube {
+    color: #e62222;
+}
+
 /* Typography */
 * {
     font-family: Montserrat, 'Helvetica Neue', sans-serif
@@ -64,7 +84,7 @@ h1 {
 }
 
 .section.title {
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 
@@ -119,8 +139,28 @@ iframe {
 }
 
 /* Socials */
+.socials ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.socials ul li {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 1.2em;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.3)
+}
+
+.socials ul li strong {
+    display: none;
+}
 
 /* Advertisement */
+.section.adv {
+    display: none;
+}
 
 /* Content */
 
@@ -148,6 +188,19 @@ iframe {
         flex-direction: row;
         gap: 40px;
     }
+
+    .socials ul {
+        gap: 20px;
+    }
+
+    .socials ul li {
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    .section.adv {
+        display: block;
+    }
 }
 
 /* Desktop */
@@ -166,4 +219,11 @@ iframe {
         gap: 20px;
     }
 
+    .socials ul li strong {
+        display: inline;
+    }
+
+    .section.adv {
+        display: block;
+    }
 }
